@@ -511,3 +511,89 @@ body {
         text-align: center;
     }
 }
+
+@media (max-width: 920px) and (orientation: landscape) {
+    .red-background {
+        justify-content: flex-start; 
+        padding-top: 10px; 
+        flex-direction: row; 
+        align-items: flex-start; 
+        flex-wrap: wrap; 
+    }
+
+    .yin-yang-container {
+        position: static; 
+        transform: none; 
+        margin: 20px; 
+        align-items: center;
+    }
+
+    .yin-yang-container img {
+        width: 100px; 
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .circles-container {
+        position: static; 
+        width: auto; 
+        height: auto; 
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        align-items: center; 
+        margin: 20px; 
+    }
+
+    .circle {
+        width: 70px; 
+        height: 70px;
+        margin: 10px; 
+    }
+
+    .circle5 {
+        margin-left: 0; 
+        margin-top: 10px; 
+    }
+
+    #reset-button {
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+    }
+
+    .percentage-display {
+        position: static; 
+        transform: none; 
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+        justify-content: center; 
+    }
+
+ 
+    .modal {
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        align-items: flex-start; 
+        width: 80%; 
+        max-height: 90%; 
+        overflow-y: auto; 
+    }
+
+    .modal form {
+        flex: 1 1 70%; 
+        padding-right: 10px;
+    }
+
+    .modal button {
+        flex-basis: 100%; 
+        margin-top: 10px;
+    }
+
+    .close-button {
+        top: 5px;
+        right: 5px;
+        font-size: 1.2em;
+        width: 25px !important;
+        height: 25px !important;
+    }
+}
