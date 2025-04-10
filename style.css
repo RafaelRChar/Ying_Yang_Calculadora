@@ -407,48 +407,48 @@ body {
         height: 100%;
         position: relative;
         display: flex;
-        flex-direction: column; /* Alinha os filhos em coluna */
-        align-items: center; /* Centraliza horizontalmente */
-        justify-content: flex-start; /* Alinha os itens no topo, mas pode ser center */
-        padding-top: 20px; /* Adiciona um pouco de espaço no topo */
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; /* Alinha os itens no topo */
+        padding-top: 20px;
     }
 
     .yin-yang-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 20px; /* Espaçamento abaixo do yin-yang */
+        margin-bottom: 30px; /* Mais espaço abaixo do yin-yang */
     }
 
     .yin-yang-container img {
         width: 80px;
         height: 80px;
-        margin-bottom: 15px;
+        margin-bottom: 10px; /* Menos espaço entre o ícone e o círculo 5 */
     }
 
     .circles-container {
         display: flex;
-        flex-direction: column; 
-        align-items: center; 
-        margin-bottom: 20px; 
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px; /* Mais espaço abaixo dos círculos */
     }
 
     .circle {
         width: 80px;
         height: 80px;
         font-size: 16px;
-        margin: 10px 0; 
+        margin: 10px 0;
     }
 
     .circle5 {
-        margin-top: 10px; /
+        margin-top: -10px; /* Valor negativo para subir o círculo 5 */
     }
 
     #reset-button {
         font-size: 12px;
         padding: 5px 15px;
         border-radius: 3px;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 
     .percentage-display {
