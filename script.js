@@ -19,39 +19,39 @@ yinYangEmpty.style.display = 'block';
 
 const questions = {
     form1: [
-        { question: 'Intenso ou Calmo?', options: [{ text: 'Intenso', value: 'Yang' }, { text: 'Calmo', value: 'Yin' }] },
-        { question: 'Expansivo ou Contrativo?', options: [{ text: 'Expansivo', value: 'Yang' }, { text: 'Contrativo', value: 'Yin' }] },
-        { question: 'Acelerado ou Lento?', options: [{ text: 'Acelerado', value: 'Yang' }, { text: 'Lento', value: 'Yin' }] },
-        { question: 'Mediador e incendiário', options: [{ text: 'Incendiário', value: 'Yang' }, { text: 'Mediador', value: 'Yin' }] },
-        { question: 'Coragem ou Medo?', options: [{ text: 'Coragem', value: 'Yang' }, { text: 'Medo', value: 'Yin' }] }
+        { question: 'Intenso ou Calmo?', options: [{ text: 'Intenso', value: 'Yin' }, { text: 'Calmo', value: 'Yang' }] },
+        { question: 'Expansivo ou Contrativo?', options: [{ text: 'Expansivo', value: 'Yin' }, { text: 'Contrativo', value: 'Yang' }] },
+        { question: 'Acelerado ou Lento?', options: [{ text: 'Acelerado', value: 'Yin' }, { text: 'Lento', value: 'Yang' }] },
+        { question: 'Mediador e incendiário', options: [{ text: 'Incendiário', value: 'Yin' }, { text: 'Mediador', value: 'Yang' }] },
+        { question: 'Coragem ou Medo?', options: [{ text: 'Coragem', value: 'Yin' }, { text: 'Medo', value: 'Yang' }] }
     ],
     form2: [
-        { question: 'Inabalável ou Mutável?', options: [{ text: 'Mutável', value: 'Yin' }, { text: 'Ínabalável', value: 'Yang' }] },
-        { question: 'Receptivo ou Dominador?', options: [{ text: 'Receptivo', value: 'Yin' }, { text: 'Dominador', value: 'Yang' }] },
-        { question: 'Guardião ou Invasor?', options: [{ text: 'Guardião', value: 'Yin' }, { text: 'Invasor', value: 'Yang' }] },
-        { question: 'Rigidez ou Leveza?', options: [{ text: 'Rigidez', value: 'Yin' }, { text: 'Leveza', value: 'Yang' }] },
-        { question: 'Silencioso ou Barulhento?', options: [{ text: 'Silencioso', value: 'Yin' }, { text: 'Barulhento', value: 'Yang' }] }
+        { question: 'Inabalável ou Mutável?', options: [{ text: 'Mutável', value: 'Yang' }, { text: 'Ínabalável', value: 'Yin' }] },
+        { question: 'Receptivo ou Dominador?', options: [{ text: 'Receptivo', value: 'Yang' }, { text: 'Dominador', value: 'Yin' }] },
+        { question: 'Guardião ou Invasor?', options: [{ text: 'Guardião', value: 'Yang' }, { text: 'Invasor', value: 'Yin' }] },
+        { question: 'Rigidez ou Leveza?', options: [{ text: 'Rigidez', value: 'Yang' }, { text: 'Leveza', value: 'Yin' }] },
+        { question: 'Silencioso ou Barulhento?', options: [{ text: 'Silencioso', value: 'Yang' }, { text: 'Barulhento', value: 'Yin' }] }
     ],
     form3: [
-        { question: 'Fluido ou Estático?', options: [{ text: 'Fluido', value: 'Yin' }, { text: 'Estático', value: 'Yang' }] },
-        { question: 'Adaptável ou Resistente?', options: [{ text: 'Adaptável', value: 'Yin' }, { text: 'Resistente', value: 'Yang' }] },
-        { question: 'Profundo ou Superficial?', options: [{ text: 'Profundo', value: 'Yin' }, { text: 'Superficial', value: 'Yang' }] },
-        { question: 'Pensar ou Reagir?', options: [{ text: 'Pensar', value: 'Yin' }, { text: 'Reagir', value: 'Yang' }] },
-        { question: 'Transparente ou Opaco?', options: [{ text: 'Transparente', value: 'Yin' }, { text: 'Opaco', value: 'Yang' }] }
+        { question: 'Fluido ou Estático?', options: [{ text: 'Fluido', value: 'Yang' }, { text: 'Estático', value: 'Yin' }] },
+        { question: 'Adaptável ou Resistente?', options: [{ text: 'Adaptável', value: 'Yang' }, { text: 'Resistente', value: 'Yin' }] },
+        { question: 'Profundo ou Superficial?', options: [{ text: 'Profundo', value: 'Yang' }, { text: 'Superficial', value: 'Yin' }] },
+        { question: 'Pensar ou Reagir?', options: [{ text: 'Pensar', value: 'Yang' }, { text: 'Reagir', value: 'Yin' }] },
+        { question: 'Transparente ou Opaco?', options: [{ text: 'Transparente', value: 'Yang' }, { text: 'Opaco', value: 'Yin' }] }
     ],
     form4: [
-        { question: 'Florescente ou Degradante?', options: [{ text: 'Florescente', value: 'Yang' }, { text: 'Desgrandante', value: 'Yin' }] },
-        { question: 'Flexível ou Rígido?', options: [{ text: 'Flexível', value: 'Yin' }, { text: 'Rígido', value: 'Yang' }] },
-        { question: 'Direcionado ou Difuso?', options: [{ text: 'Direcionado', value: 'Yang' }, { text: 'Difuso', value: 'Yin' }] },
-        { question: 'Frutífero ou Estagnado?', options: [{ text: 'Frutífero', value: 'Yang' }, { text: 'Estagnado', value: 'Yin' }] },
-        { question: 'Ordem ou Caos?', options: [{ text: 'Caos', value: 'Yang' }, { text: 'Ordem', value: 'Yin' }] }
+        { question: 'Florescente ou Degradante?', options: [{ text: 'Florescente', value: 'Yin' }, { text: 'Desgrandante', value: 'Yang' }] },
+        { question: 'Flexível ou Rígido?', options: [{ text: 'Flexível', value: 'Yang' }, { text: 'Rígido', value: 'Yin' }] },
+        { question: 'Direcionado ou Difuso?', options: [{ text: 'Direcionado', value: 'Yin' }, { text: 'Difuso', value: 'Yang' }] },
+        { question: 'Frutífero ou Estagnado?', options: [{ text: 'Frutífero', value: 'Yin' }, { text: 'Estagnado', value: 'Yang' }] },
+        { question: 'Ordem ou Caos?', options: [{ text: 'Caos', value: 'Yin' }, { text: 'Ordem', value: 'Yang' }] }
     ],
     form5: [
-        { question: 'Contagiante ou Solitude?', options: [{ text: 'Contagiante', value: 'Yang' }, { text: 'Solitude', value: 'Yin' }] },
-        { question: 'Concentrado ou Disperso?', options: [{ text: 'Concentrado', value: 'Yang' }, { text: 'Disperso', value: 'Yin' }] },
-        { question: 'Calculista ou Impulsivo?', options: [{ text: 'Calculista', value: 'Yang' }, { text: 'Impulsivo', value: 'Yin' }] },
-        { question: 'Refinado ou Desleixado?', options: [{ text: 'Refinado', value: 'Yang' }, { text: 'Desleixado', value: 'Yin' }] },
-        { question: 'Sombra ou Luz?', options: [{ text: 'Sombra', value: 'Yang' }, { text: 'Luz', value: 'Yin' }] }
+        { question: 'Contagiante ou Solitude?', options: [{ text: 'Contagiante', value: 'Yin' }, { text: 'Solitude', value: 'Yang' }] },
+        { question: 'Concentrado ou Disperso?', options: [{ text: 'Concentrado', value: 'Yin' }, { text: 'Disperso', value: 'Yang' }] },
+        { question: 'Calculista ou Impulsivo?', options: [{ text: 'Calculista', value: 'Yin' }, { text: 'Impulsivo', value: 'Yang' }] },
+        { question: 'Refinado ou Desleixado?', options: [{ text: 'Refinado', value: 'Yin' }, { text: 'Desleixado', value: 'Yang' }] },
+        { question: 'Sombra ou Luz?', options: [{ text: 'Sombra', value: 'Yin' }, { text: 'Luz', value: 'Yang' }] }
     ]
 };
 
