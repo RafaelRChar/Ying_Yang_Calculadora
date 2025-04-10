@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Yin e Yang - Medidor </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/yin-yang-site-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="red-background">
+        <div class="yin-yang-container">
+            <div class="button-container">
+                <button id="reset-button">Resetar</button>
+            </div>
+            <img id="yin-yang-empty" src="assets/yin-yang-vazio.png" alt="Yin e Yang Vazio" style="display:none;">
+            <img id="yin-yang-balance" src="assets/yin-yang-equilibrio.png" alt="Yin e Yang Equilíbrio" style="display:none;">
+            <img id="yin-yang-yang" src="assets/yin-yang-yang.png" alt="Yin e Yang Yang" style="display:none;">
+            <img id="yin-yang-yin" src="assets/yin-yang-yin.png" alt="Yin e Yang Yin" style="display:none;">
+            <div id="dominance-text"></div>
+            <div class="percentage-display" style="display:none;">
+                <div class="percentage-block">
+                    Yin: <span id="yin-percentage">50%</span>
+                </div>
+                <div class="percentage-block">
+                    Yang: <span id="yang-percentage">50%</span>
+                </div>
+            </div>
+        </div>
+        <div class="circles-container">
+            <div class="circle circle1" data-form="form1" data-capa="capafogo">
+                <div class="front"><img src="assets/fogo.png" alt="Fogo"></div>
+                <div class="back"><img src="assets/fogocapa.png" alt="Capa fogo"></div>
+            </div>
+            <div class="circle circle2" data-form="form2" data-capa="capaterra">
+                <div class="front"><img src="assets/terra.png" alt="Terra"></div>
+                <div class="back"><img src="assets/terracapa.png" alt="Capaterra"></div>
+            </div>
+            <div class="circle circle3" data-form="form3" data-capa="capagua">
+                <div class="front"><img src="assets/agua.png" alt="Água"></div>
+                <div class="back"><img src="assets/aguacapa.png" alt="Capa agua"></div>
+            </div>
+            <div class="circle circle4" data-form="form4" data-capa="capmadeira">
+                <div class="front"><img src="assets/madeira.png" alt="Madeira"></div>
+                <div class="back"><img src="assets/madeiracapa.png" alt="Capa madeira"></div>
+            </div>
+            <div class="circle circle5" data-form="form5" data-capa="capmetal">
+                <div class="front"><img src="assets/metal.png" alt="Metal"></div>
+                <div class="back"><img src="assets/metalcapa.png" alt="Capa metal"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
