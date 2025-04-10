@@ -445,12 +445,12 @@ body {
     }
 
     .circle1 {
-        top: 5%;
+        top: 10%;
         left: 15%;
     }
 
     .circle2 {
-        top: 5%;
+        top: 10%;
         right: 15%;
     }
 
@@ -465,8 +465,9 @@ body {
     }
 
     .circle5 {
-        top: 40%; 
+        top: 50%; 
         left: 50%; 
+        transform: translateX(-50%); 
     }
 
     #reset-button {
@@ -483,7 +484,7 @@ body {
         color: white;
         font-size: 0.9em;
         position: absolute;
-        bottom: 30%; 
+        top: 40%; 
         left: 50%;
         transform: translateX(-50%);
         z-index: 2;
