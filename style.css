@@ -409,74 +409,103 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start; /* Alinha os itens no topo */
-        padding-top: 20px;
+        justify-content: center; /* Centraliza o conteúdo principal */
     }
 
     .yin-yang-container {
+        position: absolute;
+        top: 10%; /* Ajusta a posição vertical do yin-yang */
+        left: 50%;
+        transform: translate(-50%, 0); /* Centraliza horizontalmente, alinha ao topo */
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 30px; /* Mais espaço abaixo do yin-yang */
+        justify-content: center;
+        z-index: 1;
     }
 
     .yin-yang-container img {
         width: 80px;
         height: 80px;
-        margin-bottom: 10px; /* Menos espaço entre o ícone e o círculo 5 */
     }
 
     .circles-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 30px; /* Mais espaço abaixo dos círculos */
+        position: absolute; /* Mantém o posicionamento absoluto */
+        width: 100%;
+        height: 100%;
+        perspective: 1000px;
     }
 
     .circle {
-        width: 80px;
-        height: 80px;
-        font-size: 16px;
-        margin: 10px 0;
+        position: absolute;
+        width: 60px; /* Tamanho menor para celular */
+        height: 60px; /* Tamanho menor para celular */
+        font-size: 12px; /* Tamanho da fonte menor */
+    }
+
+    /* Posicionamento dos Círculos (Adaptado para celular) */
+    .circle1 {
+        top: 5%;
+        left: 15%;
+    }
+
+    .circle2 {
+        top: 5%;
+        right: 15%;
+    }
+
+    .circle3 {
+        top: 40%;
+        left: 5%;
+    }
+
+    .circle4 {
+        top: 40%;
+        right: 5%;
     }
 
     .circle5 {
-        margin-top: -10px; /* Valor negativo para subir o círculo 5 */
+        bottom: 15%;
+        left: 45%;
     }
 
     #reset-button {
         font-size: 12px;
         padding: 5px 15px;
         border-radius: 3px;
-        margin-bottom: 20px;
+        margin-top: 20px; /* Espaçamento do topo */
     }
 
     .percentage-display {
         display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: center;
-        font-size: 1em;
-        gap: 20px;
-        margin-bottom: 20px;
+        gap: 10px;
+        color: white;
+        font-size: 0.9em;
+        position: absolute;
+        bottom: 5%; /* Mais próximo da parte inferior */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
     }
 
     .percentage-block {
-        font-size: 1em;
-        padding: 8px 12px;
-        border-radius: 8px;
-        border-width: 2px;
         text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #FFD700;
     }
 
     #yin-percentage,
     #yang-percentage {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     #dominance-text {
-        font-size: 1.2em;
+        font-size: 1em;
+        color: white;
+        margin-bottom: 10px;
         text-align: center;
-        margin-bottom: 15px;
     }
 }
